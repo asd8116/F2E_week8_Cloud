@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Noto Sans TC", sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: #7a7a7a;
+}
+
+.icon {
+  color: #7a7a7a;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+.fade-enter-active {
+  transform-origin: 0 0;
+  transition: 0.3s ease-out;
+}
+
+.fade-leave-active {
+  transition: 0.4s ease-out;
+}
+
+.fade-enter {
+  transform: scale(0);
+}
+
+.fade-leave-to {
+  opacity: 0;
+}
