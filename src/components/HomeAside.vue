@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import ControlList from '../components/ControlList.vue'
-import FileUploadCard from '../components/FileUploadCard.vue'
+import ControlList from '@/components/ControlList.vue'
+import FileUploadCard from '@/components/FileUploadCard.vue'
 
 export default {
   components: {
